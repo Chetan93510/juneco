@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000066;
+    padding: 0 30px;
+}
+.topbar div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.topbar a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.logo img{
+    width: 100px;
+}
+.links{
+    display: flex;
+    gap: 25px;
+}
+.links a{
+    color: black;
+}
+button{
+    padding: 7px 20px;
+    background-color: #000066;
+    border: none;
+    color: #f7f7f7;
+    border-radius: 3px;
+}
+
+.banner-image{
+    width: 100%;
+}
+
+.about{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about div{
+    width: 600px;
+}
+
+.about div img{
+    width: 100%;
+}
+
+.offer{
+    padding: 20px 30px;
+}
+.offer h1{
+    text-align: center;
+}
+.offer-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 370px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px #0000003f;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+}
