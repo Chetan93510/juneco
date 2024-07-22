@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    /* border: 1px solid red; */
 }
-
 body{
     width: 100%;
     background-color: #f7f7f7;
 }
-
 .topbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #000066;
-    padding: 0 30px;
+    padding: 5px 30px;
 }
 .topbar div{
     display: flex;
@@ -27,11 +25,10 @@ body{
 }
 .topbar a{
     color: #fff;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 300;
 }
-
-.navbar {
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,11 +37,11 @@ body{
 .logo img{
     width: 100px;
 }
-.links{
+.link{
     display: flex;
     gap: 25px;
 }
-.links a{
+.link a{
     color: black;
 }
 button{
@@ -54,33 +51,34 @@ button{
     color: #f7f7f7;
     border-radius: 3px;
 }
-
-.banner-image{
+.poster img{
     width: 100%;
 }
-
 .about{
-    padding: 20px 30px;
-    display: flex;
+    padding: 15px 30px;
     align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between; 
 }
 .about div{
-    width: 600px;
+    width: 100%;
+    
 }
-
+.about h1{
+    font-size: 50px;
+    font-weight: 400;
+}
 .about div img{
     width: 100%;
 }
-
-.offer{
+.cards{
     padding: 20px 30px;
 }
-.offer h1{
+.cards h1{
     text-align: center;
 }
-.offer-cards{
+.offer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +86,7 @@ button{
     flex-wrap: wrap;
 }
 .card{
-    width: 370px;
+    width: 350px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -98,10 +96,112 @@ button{
     gap: 10px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px #0000003f;
+    
 }
-
 .card img{
     width: 50px;
     height: 50px;
+}
+.need{
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+     /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.need div{
+    width: 100%;
+}
+.need div h1{
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.need div img{
+    width: 100%;
+}
+.form div{
+    width: 50%;
+    background-color: #DADBE8;
+    padding: 15px 50px;
+    align-items: center;
+    flex-wrap: wrap;
+      
+}
+.form input,form textarea{
+    display:list-item ;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #c5baba;
+    margin: 2px;
+    border-radius: 4px;
+}
+.form button{
+    width: 100px;
+}
+.locations{
+    width: 100%;
+    flex: 10px;
+    margin-top: 30px;
+    align-items: center;
+    background-color: #DADBE8;
+    
+}
+.locations h1{
+    /* display: flex; */
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.locationarea{
+    /* align-items: center; */
+    gap: 20px;
+    size: 10px;
+    border-radius:  red;
+    display: flex;
+    /* size: px; */
+    flex-wrap: wrap;
+    background-color: #DADBE8;
+    
+}
+.icon img{
+    width: 15px;
+    /* background-color: #000066; */
+    /* color: aqua; */
+}
+.client h1{
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+}
+.client{
+    flex-wrap:wrap ;
+    align-items: center;
+    text-align: center;
+    display: flex ;
+    justify-content: space-around;
+}
+.qw{
+    text-align: center;
+    padding-top: 20px;
+}
+.hr{
+    color: inherit;
+    margin: 1rem 0;
+    border-top: 1px solid;
+}
+.col-1 img{
+    width: 100px;
+    
+}
+.footer{
+    /* width: 100%; */
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
 }
